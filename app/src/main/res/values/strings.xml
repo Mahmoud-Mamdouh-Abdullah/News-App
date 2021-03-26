@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="section">Section</string>
+    <string name="last_news">Latest News</string>
+    <string name="date">Date :</string>
+    <string name="time">Time :</string>
+    <string name="author">Author :</string>
+    <string name="no_news">Sorry, There is no News</string>
+    <string name="no_internet">Sorry, No internet connection</string>
+    <string name="filter_the_news">Filter the news</string>
+    <string name="default_news">20</string>
+    <string name="order_by">Order By : </string>
+    <string name="newest">Newest</string>
+    <string name="relevant">Relevant</string>
+    <string name="oldest">Oldest</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="relevant_news">Relevant News</string>
+    <string name="oldest_news">Oldest News</string>
+    <string name="choose_the_maximum_news">Choose the Maximum News</string>
+</resources>

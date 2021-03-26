@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222627</color>
+    <color name="colorPrimaryDark">#18191D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="hover_color">#9E9E9E</color>
+    <color name="red">#DD2C00</color>
+    <color name="light_red">#f5425a</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="colorAccent">#FFFFFF</color>
+</resources>

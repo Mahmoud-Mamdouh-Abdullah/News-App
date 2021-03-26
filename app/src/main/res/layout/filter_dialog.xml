@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_the_maximum_news"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/pageSize_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/default_news"
+            android:textColor="@color/white"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:backgroundTint="@color/white"
+            android:autofillHints="20" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/order_by"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_gravity="center"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:orientation="horizontal"
+                android:checkedButton="@id/newest_rb">
+
+                <RadioButton
+                    android:id="@+id/newest_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newest"
+                    android:textColor="@color/white"
+                    android:paddingStart="5dp"
+                    android:layout_marginStart="5dp"
+                    android:buttonTint="@color/white"
+                    android:textSize="12sp"/>
+                <RadioButton
+                    android:id="@+id/relevant_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/relevant"
+                    android:textColor="@color/white"
+                    android:paddingStart="5dp"
+                    android:buttonTint="@color/white"
+                    android:textSize="12sp"/>
+
+                <RadioButton
+                    android:id="@+id/oldest_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oldest"
+                    android:textColor="@color/white"
+                    android:paddingStart="5dp"
+                    android:layout_marginStart="5dp"
+                    android:buttonTint="@color/white"
+                    android:textSize="12sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:layout_marginEnd="10dp"/>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/cancel"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
