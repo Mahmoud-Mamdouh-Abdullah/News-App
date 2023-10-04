@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 uriBuilder.appendQueryParameter("order-by", orderBy);
                 uriBuilder.appendQueryParameter("page-size", pageSize);
                 uriBuilder.appendQueryParameter("show-tags", "contributor");
-                uriBuilder.appendQueryParameter("api-key", "ef6b7acd-f83e-4d19-87c2-f02b44ea6e6c");
+                uriBuilder.appendQueryParameter("api-key", "/*api-key*/");
                 return new NewsLoader(MainActivity.this, uriBuilder.toString());
             }
 
